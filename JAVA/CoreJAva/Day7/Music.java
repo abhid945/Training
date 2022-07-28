@@ -1,5 +1,13 @@
 package Week_1.Day7;
-
+/*Create an abstract class Instrument which has the abstract function play.
+Create three more subclasses from Instrument which are Piano, Flute, Guitar.
+Override the play method inside all three classes printing a message. "Plano is playing
+tan tan tan tan tor Piano class "Flute is playing toot toot toot toot" tor Flute class
+"Guitar is playing tin tin tin for Guitar class
+You must not allow the user to declare an object of Instrument class. Create an array of
+10 Instruments. Assign different types of instrument to Instrument reference. Check for
+the polymorphie behavior of the play method. Use the instanceot operator to print
+which object stored at which index of instrument array.*/
 
 import java.util.Random;
 
