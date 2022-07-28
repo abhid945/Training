@@ -75,3 +75,29 @@ public class Music {
         }
     }
 }
+
+
+
+
+
+/*Flute is stored at index 0
+Flute is playing toot toot toot
+Flute is stored at index 1
+Flute is playing toot toot toot
+Piano is stored at index  2
+Piano is playing tan tan tan
+Flute is stored at index 3
+Flute is playing toot toot toot
+Piano is stored at index  4
+Piano is playing tan tan tan
+Piano is stored at index  5
+Piano is playing tan tan tan
+Guitar is stored at index 6
+Guitar is playing tin tin tin
+Flute is stored at index 7
+Flute is playing toot toot toot
+Piano is stored at index  8
+Piano is playing tan tan tan
+Flute is stored at index 9
+Flute is playing toot toot toot
+*/
