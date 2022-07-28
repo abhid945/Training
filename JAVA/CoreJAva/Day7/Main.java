@@ -1,5 +1,9 @@
 package Week_1.Day7;
-
+/**Create an abstract class shape with abstract method void area0;
+create 4 more classes círcle, cylinder, square and rectangle
+shape,circle,square,cylinder,rectangle
+SHAPE 1s parent for circle and square, and circle 1s parent tor cylinder ,rectangle is child
+or square.*/
 
 import java.util.logging.Level;
 
