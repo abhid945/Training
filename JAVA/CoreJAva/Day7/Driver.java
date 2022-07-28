@@ -35,3 +35,12 @@ public class Driver {
         truck.engine();
     }
 }
+
+
+
+
+
+/*   Output
+Car has a good Engine
+Truck has a bad Engine
+*/
