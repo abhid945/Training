@@ -84,3 +84,13 @@ public class Main {
     }
 
 }
+
+
+/*Output
+
+Area of Circle is :314.1592653589793
+Area  of Cylinder is :1130.9733552923256
+Area of Square is :100
+Area of Rectangle is : 200
+
+*/
