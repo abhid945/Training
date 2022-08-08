@@ -7,7 +7,7 @@ public class AssertionExample {
     public static void main(String args[])
     {
         int value = 8;
-        if (value <= 20) throw new AssertionError(" Overweight");
+       assert value > 20 : " Overweight";
         System.out.println("value is " + value);
     }
 }
