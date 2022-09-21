@@ -1,0 +1,75 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+    
+
+    <bean id="karan1" class="Movie">
+        <property name="movieName" value="Brahmastra"/>
+        <property name="cast">
+            <list>
+                <value>Alia Bhatt</value>
+                <value>Ranbeer Kapoor</value>
+                <value>Sharukh Khan</value>
+                <value>Amitabh Bachchan</value>
+            </list>
+        </property>
+        <property name="year" value="2022"/>
+    </bean>
+
+    <bean id="karan2" class="Movie">
+        <property name="movieName" value="Student of the Year"/>
+        <property name="cast">
+            <list>
+                <value>Siddarth Malhotra</value>
+                <value>Varun Dhawan</value>
+                <value>Alia Bhatt</value>
+            </list>
+        </property>
+        <property name="year" value="2012"/>
+    </bean>
+
+    <bean id="rohit1" class="Movie">
+        <property name="movieName" value="Singham"/>
+        <property name="cast">
+            <list>
+                <value>Ajay Devgan</value>
+                <value>Jai Kant Shikhre </value>
+            </list>
+        </property>
+        <property name="year" value="2010"/>
+    </bean>
+    
+    <bean id="director1"  class="Director">
+        <property name="directorName" value="Karan Johar"/>
+        <property name="experience" value="15"/>
+        <property name="movieName">
+            <set>
+                <ref bean="karan1"></ref>
+                <ref bean="karan2"></ref>
+            </set>
+        </property>
+    </bean>
+
+
+    <bean id="director2"  class="Director">
+        <property name="directorName" value="Rohit Shetty"/>
+        <property name="experience" value="12"/>
+        <property name="movieName">
+            <set>
+                <ref bean="rohit1"></ref>
+            </set>
+        </property>
+    </bean>
+    
+    
+    
+    
+    
+</beans>
